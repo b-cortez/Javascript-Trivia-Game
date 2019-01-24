@@ -1,0 +1,80 @@
+
+#start {
+	margin-top: 10px;
+	background: lightblue;
+	border-color: lightblue;
+}
+
+#restart {
+	margin-top: 10px;
+}
+
+#splashScreen {
+	display: inherit;
+	margin-top: 100px;
+	width: 1000px;
+}
+#starttext {
+font-size: 2em;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+background: red;
+color: #fff;
+
+}
+
+#questions {
+	display: none;
+	margin-top: 50px;
+}
+
+#snarf {
+	background: #fff;
+}
+
+#text {
+	margin-bottom: 20px;
+}
+
+#gameOver {
+	display: none;
+	margin-top: 50px;
+}
+
+#timer {
+	visibility: hidden;
+}
+
+#marvel {
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	align-content: center;
+	width:400px;
+	align-self: center;
+
+}
+#img1 {
+	height: 400px;
+	background: url("../images/kingArthur.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+#img2 {
+	height: 400px;
+	background: url("../images/bridgeKeeper.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
