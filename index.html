@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marvel Trivia</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+		<h1 class="display-3">Marvel Trivia Game</h1>
+		<div>
+			<img src="assets/images/marvel.gif" id="marvel">
+			</div>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+		<div class="col-md-3">
+          <h3 id="timer"></h3>
+        </div>
+      </div>
+
+      <div class="offset-md-1"></div>
+
+      <div class="col-md-12">
+        <div id="start-page" class="start-page-text text-center">
+		  <h2>Ready to play?</h2>
+          <div class="btn btn-primary" id="startGame">Start Game
+          </div>
+        </div>
+
+      <div>
+        <div id="questions-box">
+        </div>
+      </div>
+
+        <div class="hidden" id="end-game">
+          <h2>Your score:</h2>
+          <p id="correct-answers"></p>
+          <p id="incorrect-answers"></p>
+          <p id="unanswered"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <hr>
+      <span class="text-center">
+        <p>&copy; Copyright 2019 Brian Olivares Cortes</p>
+      </div>
+    </footer>
+</body>
+</html>
